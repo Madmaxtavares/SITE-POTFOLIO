@@ -1,0 +1,110 @@
+@media screen and (max-width: 1130px) {
+  /* Global */
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  /* Seção Header*/
+
+  .header i {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  /* Seção Menu Mobile*/
+
+  .menu-mobile {
+    top: 10.5rem;
+  }
+
+  /* Seção Inicio */
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container .container-content h1 {
+    font-size: 4rem;
+  }
+
+  .container-content h3 {
+    font-size: 2rem;
+  }
+
+  .social-icon a {
+    margin: .5rem;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* Seção Serviços */
+
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-box p {
+    text-align: justify;
+  }
+
+  /* Seção Habilidades */
+
+  .skills .caixa {
+    width: 100%;
+  }
+
+  .skills .caixa .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Seção de Formação */
+
+  .timeline-itens::before {
+    left: 7px;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .timeline-item:nth-child(odd), 
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+
+  .timeline-content {
+    margin-top: 30px;
+  }
+
+
+  .timeline-dot {
+    left: 0;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  /* Seção Serviço */
+
+  .service-box p {
+    padding: 0 20px;
+  }
+}
